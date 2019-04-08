@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'madini-app';
+  title = 'this is my first websit create with angular push on github';
 }
