@@ -3,14 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-
+import { MadiniComponet} from '.madini.component';
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MadiniComponet
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MadiniComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
